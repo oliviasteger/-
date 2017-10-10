@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
   <title>Olivia Steger</title>
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
   <style>
   body, html {
@@ -13,10 +14,11 @@
     padding: 0px;
     margin: 0px;
     height: 100%;
+    font-size: 12px;
   }
   h1 {
     font-size: 17px;
-    color: #76a5af;
+    color: #2CA4BF;
     font-weight: 900;
   }
   #content {
@@ -31,11 +33,21 @@
     padding-left: 40px;
   }
   p {
-    font-size: 12px;
     line-height: 1.8;
   }
   a {
-    color: #76a5af;
+    color: #2CA4BF;
+  }
+  .sideb {
+    border-right: 2px solid #2CA4BF;
+  }
+  .hl {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2CA4BF;
+  }
+  .hl:hover {
+    text-decoration: underline;
   }
 
   @media only screen and (max-width: 900px) {
@@ -48,6 +60,7 @@
       height: 100%;
       padding-top: 0px;
       padding-bottom: 0px;
+      font-size: 12px;
     }
     #content {
       margin-left: 0;
@@ -58,15 +71,14 @@
     }
     h1 {
       font-size: 17px;
-      color: #76a5af;
+      color: #2CA4BF;
       font-weight: 900;
     }
     p {
-      font-size: 12px;
       line-height: 1.8;
     }
     a {
-      color: #76a5af;
+      color: #2CA4BF;
     }
   }
   </style>
@@ -75,22 +87,32 @@
   <div id="content">
     <br><br><br><br>
     <h1>A B O U T</h1>
-    <p>Hi! I'm Olivia, a developer interested in social justice. I am fluent in <b>JavaScript</b>, <b>Ruby</b>, <b>Rails</b>, and <b>React Native</b>.</p>
+    <p><b>Hi!</b> I'm Olivia, a developer interested in social justice. Fluent in JavaScript, Ruby, Rails, and React Native.</p>
     <br>
     <h1>T I M E L I N E</h1>
-    <p>
-      <b>2013:</b> Began coding at a workshop in NYC<br>
-      <b>2014:</b> Selected to enroll in a pilot computer science program<br>
-      <b>2015:</b> Selected to enroll in Nano Hacker Academy<br>
-      <b>2016:</b> Team’s Chrome Extension won best beginner hack at StuyHacks<br>
-      <b>2017:</b> GroundWatch receives an honorable mention for Most Innovative at EmotiCon NYC
-    </p>
-    <br>
+    <table>
+      <tr>
+      <td class="sideb"><b>2013 &nbsp</b></td> <td>&nbsp Began coding at a workshop in NYC</td>
+      </tr>
+      <tr>
+      <td class="sideb"><b>2014 &nbsp</b></td> <td>&nbsp Participated in a pilot computer science program</td>
+      </tr>
+      <tr>
+      <td class="sideb"><b>2015 &nbsp</b></td> <td>&nbsp Selected to enroll in <a class="hl" href="https://www.nanohackers.org">Nano Hacker Academy</a></td>
+      </tr>
+      <tr>
+      <td class="sideb"><b>2016 &nbsp</b></td> <td>&nbsp Team’s Chrome Extension, <a class="hl" href="https://oliviasteger.github.io/hackathons/stuyhacks/index.html">NaNotes</a>, won best beginner hack at StuyHacks</td>
+      </tr>
+      <tr>
+      <td class="sideb"><b>2017 &nbsp</b></td> <td>&nbsp <a class="hl" href="http://oliviasteger.github.io/GroundWatch">GroundWatch</a> receives an honorable mention for Most Innovative at EmotiCon NYC</td>
+      </tr>
+    </table>
+    <br><br>
     <h1>C O N T A C T</h1>
-    <p>
-      <a href="mailto:olivia@oliviasteger.com">olivia@oliviasteger.com</a><br>
-      <a href="https://www.github.com/oliviasteger">github.com/oliviasteger</a>
-    </p>
+    <table>
+      <tr><td><i class="fa fa-envelope fa-lg"></i> &nbsp</td><td><a class="hl" href="mailto:olivia@oliviasteger.com">olivia@oliviasteger.com</a></td></tr>
+      <tr><td><i class="fa fa-github fa-lg"></i> &nbsp</td><td><a class="hl" href="https://www.github.com/oliviasteger">github.com/oliviasteger</a></td></tr>
+    </table>
   </div>
 </body>
 </html>
