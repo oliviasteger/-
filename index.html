@@ -3,106 +3,73 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,900" rel="stylesheet">
   <title>olivia steger</title>
-  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-  <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,800" rel="stylesheet">
   <style>
-    body {
-      width: 100%;
-      margin: 0px;
-      font-family: 'Montserrat', sans-serif;
-      overflow-x:hidden;
+  #box {
+    margin-left: 50%;
+    height: 90%;
+    margin-top: 8.5%;
+    margin-right: 10%;
+    border-radius: 50px;
+    background-color: #eeeeeeff;
+    padding: 30px;
+    margin-bottom: 5%;
+  }
+  p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    line-height: 2em;
+    color: #4da6ff;
+    font-size: 15px;
+    margin: 10px;
+  }
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #4da6ff;
+    text-align: center;
+    font-size: 40px;
+  }
+  #links {
+    letter-spacing: 1px;
+    color: #99e0fbff;
+    text-align: center;
+  }
+  a {
+    color: #99e0fbff;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #4da6ff;
+  }
+  @media only screen and (max-width : 800px) {
+    #box {
+      margin-left: 5%;
+      height: 90%;
+      margin-top: 15%;
+      margin-right: 5%;
+      border-radius: 50px;
+      padding: 30px;
+      margin-bottom: 5%;
     }
-    #links {
-      width: 100%;
-      text-align: right;
-      right: 0;
-      padding-top: 15px;
-      font-weight: 600;
-    }
-    .tl {
-      padding-left: 20px;
-    }
-    .ha {
-      padding-right: 20px;
-    }
-    a {
-      text-decoration: none;
-      color:  #4da6ff;
-    }
-    a:hover {
-      color:  #80bfff;
-    }
-    #big {
-      width: 100%;
-      text-align: left;
-      padding-top: 250px;
-      font-weight: 600;
-      font-size: 90px;
-      padding-left: 60px;
-    }
-    #text {
-      width: 40%;
-      padding-left: 60px;
-      line-height: 2;
-      text-align: left;
-      overflow-x: none;
-      padding-top: 180px;
-      padding-bottom: 220px;
-    }
-    @media screen and (max-width: 504px) {
-      #links {
-        width: 100%;
-        text-align: center;
-        right: 0;
-        margin-top: 15px;
-        font-weight: 600;
-      }
-      #big {
-        width: 100%;
-        text-align: left;
-        padding-top: 400px;
-        font-weight: 600;
-        font-size: 45px;
-        padding-left: 20px;
-      }
-      #text {
-        width: 70%;
-        padding-left: 0px;
-        line-height: 2;
-        text-align: left;
-        font-size: 12px;
-        padding-top: 240px;
-        padding-bottom:
-      }
-    }
+  }
   </style>
 </head>
 <body>
-  <div id="links">
-    olivia steger
-    <a class="tl" href="#ABOUT">about</a>
-    <a class="tl" href="mailto:olivia@oliviasteger.com">contact</a>
-    <a class="tl ha" href="https://www.github.com/oliviasteger">github</a>
-  </div>
-  <div id="big">
+<div id="box">
+  <h1>olivia steger</h1>
+  <p>fluent in javascript, ruby, rails, & react native.
+    enrolled in nano hacker academy during 2015.
+    nanotes wins best beginner hack at stuyhacks 2016.
+    groundwatch receives honorable mention for most
+    innovative at emoti-con nyc in 2017. </p>
     <br>
-    developer.
-  </div>
-  <a id="ABOUT"></a>
-  <center>
-  <div id="text">
-    <b>Hi!</b> I'm Olivia, a developer interested in social justice.
-    I started coding in 2013 and am fluent in JavaScript,
-    Ruby, Rails, and React Native. In 2014 I participated
-    in a pilot computer science program. I was selected
-    to enroll in <a  href="https://wwww.nanohackers.org/">Nano Hacker Academy</a> in 2015. In 2016,
-    my team's Chrome extension, <a href="https://oliviasteger.github.io/hackathons/stuyhacks/index.html">NaNotes</a>, won best
-    beginner hack at StuyHacks. My social justice app,
-    <a href="http://oliviasteger.github.io/GroundWatch">GroundWatch</a>, recieved an honorable mention for
-    most innovative at EmotiCon NYC in 2017.
-    </div>
-  <div id ="bottom">
+    <p id="links">
+      <a href="mailto:olivia@oliviasteger.com">contact</a> &
+      <a href="http://www.github.com/oliviasteger">github</a><br>
+    </p>
+</div>
 </body>
 </html>
