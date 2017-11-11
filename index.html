@@ -75,18 +75,33 @@
     a:hover {
       color: #000000;
     }
-    .projectBreak {
-      margin-left: 3px;
-      width: 140px;
-      margin-top, margin-bottom: 5px;
-      height: 2px;
-      background-color: #EDEDED;
-    }
     table {
       margin-left: 100px;
       margin-right: 100px;
     }
-
+    @media only screen and (max-width: 603px) {
+      h1 {
+        margin-top: 100px;
+        padding-left: 20px;
+      }
+      .titleText {
+        padding-left: 23px;
+      }
+      #footer {
+        padding-left: 20px;
+        margin-top: 40px;
+      }
+      #project {
+        margin-top: 40px;
+      }
+      .lineBreak {
+        margin-left: 23px;
+      }
+      table {
+        margin-left: 20px;
+        margin-right: 10px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -99,7 +114,6 @@
     <td>
     <div id="project" style="margin-right: 20px;">
       <h2>GroundWatch</h2>
-      <div class="projectBreak"></div>
       <p class="projectText">Anonymously report violence at protests.</p>
       <p class="projectLinks"><a href="http://www.groundwatch.io/">Website</a> <a href="https://itunes.apple.com/us/app/groundwatch/id1296615740?ls=1&mt=8">App Store</a> <a href="https://play.google.com/store/apps/details?id=com.oliviasteger.GroundWatchiOS">Google Play</a> <a style="padding-right: 0px;" href="https://github.com/oliviasteger/GroundWatch">Github</a></p>
     </div>
