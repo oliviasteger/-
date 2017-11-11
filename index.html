@@ -2,74 +2,116 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
   <meta name="viewport" content="width=device-width">
-  <title>olivia steger</title>
-  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,800" rel="stylesheet">
+  <title>Olivia Steger</title>
   <style>
-  #box {
-    margin-left: 50%;
-    height: 90%;
-    margin-top: 8.5%;
-    margin-right: 10%;
-    border-radius: 50px;
-    background-color: #eeeeeeff;
-    padding: 30px;
-    margin-bottom: 5%;
-  }
-  p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: normal;
-    line-height: 2em;
-    color: #4da6ff;
-    font-size: 15px;
-    margin: 10px;
-  }
-  h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color: #4da6ff;
-    text-align: center;
-    font-size: 40px;
-  }
-  #links {
-    letter-spacing: 1px;
-    color: #99e0fbff;
-    text-align: center;
-  }
-  a {
-    color: #99e0fbff;
-    text-decoration: none;
-  }
-  a:hover {
-    color: #4da6ff;
-  }
-  @media only screen and (max-width : 800px) {
-    #box {
-      margin-left: 5%;
-      height: 90%;
-      margin-top: 15%;
-      margin-right: 5%;
-      border-radius: 50px;
-      padding: 30px;
-      margin-bottom: 5%;
+    body, html {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      padding: 0px;
+      margin: 0px;
     }
-  }
+    h1 {
+      margin-top: 150px;
+      padding-left: 100px;
+      font-weight: 300;
+    }
+    .titleText {
+      font-size: 17px;
+      padding-left: 103px;
+      overflow-x: hidden;
+      color: #999999;
+      line-height: 25px;
+    }
+    #footer {
+      margin: 0px;
+      margin-top: 80px;
+      padding: 20px;
+      padding-left: 100px;
+      background-color: #EDEDED;
+      font-weight: 300;
+      font-size: 13px;
+      bottom: 0px;
+    }
+    .footerLink {
+      font-weight: 400;
+      color: #999999;
+      font-size: 11px;
+      text-decoration: none;
+    }
+    .lineBreak {
+      margin-left: 103px;
+      width: 140px;
+      margin-top, margin-bottom: 5px;
+      height: 2px;
+      background-color: #EDEDED;
+    }
+    h2 {
+      font-weight: 300;
+      margin-bottom: 2px;
+    }
+    #project {
+      padding: 20px;
+      margin-top: 75px;
+      width: table/3;
+      margin-right: 0px;
+      margin-left: 0px;
+      background-color: #EDEDED;
+    }
+    .projectText {
+      font-size: 17px;
+      overflow-x: none;
+      color: #999999;
+      line-height: 25px;
+    }
+    a {
+      font-weight: 400;
+      color: #999999;
+      text-decoration: none;
+      font-size: 11px;
+      padding-right: 10px;
+    }
+    a:hover {
+      color: #000000;
+    }
+    .projectBreak {
+      margin-left: 3px;
+      width: 140px;
+      margin-top, margin-bottom: 5px;
+      height: 2px;
+      background-color: #EDEDED;
+    }
+    table {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+
   </style>
 </head>
 <body>
-<div id="box">
-  <h1>olivia steger</h1>
-  <p>fluent in javascript, ruby, rails, & react native.
-    enrolled in nano hacker academy during 2015.
-    nanotes wins best beginner hack at stuyhacks 2016.
-    groundwatch receives honorable mention for most
-    innovative at emoti-con nyc in 2017. </p>
-    <br>
-    <p id="links">
-      <a href="mailto:olivia@oliviasteger.com">contact</a> &
-      <a href="http://www.github.com/oliviasteger">github</a><br>
-    </p>
+<h1>Olivia Steger</h1>
+<div class="lineBreak"></div>
+<p class="titleText">I'm a programmer who works in JavaScript, <br>frontend, Ruby, Rails, C++, and Java.</p>
+
+<table>
+  <tr>
+    <td>
+    <div id="project" style="margin-right: 20px;">
+      <h2>GroundWatch</h2>
+      <div class="projectBreak"></div>
+      <p class="projectText">Anonymously report violence at protests.</p>
+      <p class="projectLinks"><a href="http://www.groundwatch.io/">Website</a> <a href="https://itunes.apple.com/us/app/groundwatch/id1296615740?ls=1&mt=8">App Store</a> <a href="https://play.google.com/store/apps/details?id=com.oliviasteger.GroundWatchiOS">Google Play</a> <a style="padding-right: 0px;" href="https://github.com/oliviasteger/GroundWatch">Github</a></p>
+    </div>
+    </td>
+  </tr>
+</table>
+
+<br>
+<div id="footer">
+  <p>© 2017 Olivia Steger</p>
+  <a class="footerLink" href="mailto:olivia@oliviasteger.com">Contact</a> &nbsp; <a class="footerLink" href="http://www.github.com/oliviasteger">GitHub</a>
+  <br><br>
 </div>
 </body>
 </html>
