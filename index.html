@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111029921-1"></script>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet">
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -24,6 +25,7 @@
       margin-top: 150px;
       padding-left: 100px;
       font-weight: 300;
+      font-family: 'Playfair Display', serif;
     }
     .titleText {
       font-size: 17px;
@@ -42,6 +44,14 @@
       font-size: 13px;
       bottom: 0px;
     }
+    #award {
+      padding: 20px;
+      margin-top: 75px;
+      width: 300px;
+      margin-right: 0px;
+      margin-left: 0px;
+      background-color: #EDEDED;
+    }
     .footerLink {
       font-weight: 400;
       color: #999999;
@@ -56,13 +66,18 @@
       background-color: #EDEDED;
     }
     h2 {
+      padding-left: 105px;
       font-weight: 300;
       margin-bottom: 2px;
+      font-family: 'Playfair Display', serif;
+    }
+    h3 {
+      font-family: 'Playfair Display', serif;
     }
     #project {
       padding: 20px;
       margin-top: 75px;
-      width: table/3;
+      width: 300px;
       margin-right: 0px;
       margin-left: 0px;
       background-color: #EDEDED;
@@ -92,12 +107,20 @@
         margin-top: 100px;
         padding-left: 20px;
       }
+      h2 {
+        margin-top: 30px;
+        padding-left: 22px;
+      }
       .titleText {
         padding-left: 23px;
       }
       #footer {
         padding-left: 20px;
         margin-top: 40px;
+      }
+      #award {
+        margin-top: 40px;
+        margin-bottom: 20px;
       }
       #project {
         margin-top: 40px;
@@ -108,6 +131,7 @@
       table {
         margin-left: 20px;
         margin-right: 10px;
+        display: block;
       }
     }
   </style>
@@ -115,15 +139,44 @@
 <body>
 <h1>Olivia Steger</h1>
 <div class="lineBreak"></div>
-<p class="titleText">I'm a programmer who works in JavaScript, <br>frontend, Ruby, Rails, C++, and Java.</p>
+<p class="titleText">I'm a programmer who works in front end, JavaScript, Ruby, Rails, C++, Java, and React Native.</p>
+<h2 style="margin-top: 70px; margin-bottom: 20px;">Awards</h2>
+<table>
+  <span>
+  <tr style="margin-top: 0px;">
+    <td style="margin-bottom: 70px;">
+    <div id="award" style="margin-right: 20px; margin-top: 0px;">
+      <h3>#2 Overall @ Hack RiverDell</h3>
+      <p class="projectText">TimeTracker is a time management app for students.</p>
+      <p class="projectLinks"><a href="https://oliviasteger.github.io/hackathons/timetracker/">App Website</a> &nbsp; <a href="http://hackriverdell.com/">Hack RiverDell</a></p>
+    </div>
+    </td>
+    <td style="margin-bottom: 70px;">
+    <div id="award" style="margin-right: 20px; margin-top: 0px;">
+      <h3>Honorable Mention @ Emoti-Con</h3>
+      <p class="projectText">GroundWatch allows protesters to anonymously report violence.</p>
+      <p class="projectLinks"><a href="https://www.groundwatch.io">App Website</a> &nbsp; <a href="http://emoti-con.org/">Emoti-Con</a></p>
+    </div>
+    </td>
+    <td>
+    <div id="award" style="margin-right: 20px; margin-top: 0px;">
+      <h3>#2 Overall @ StuyHacks</h3>
+      <p class="projectText">Lift is a resource for scraped and compiled documentation.</p>
+      <p class="projectLinks"><a href="https://oliviasteger.github.io/lift/">App Website</a> &nbsp; <a href="http://stuyhacks.com/">StuyHacks</a></p>
+    </div>
+    </td>
+  </tr>
+</span>
+</table>
 
+<h2 style="margin-top: 70px; margin-bottom: 20px;">Latest Project</h2>
 <table>
   <tr>
     <td>
-    <div id="project" style="margin-right: 20px;">
-      <h2>GroundWatch</h2>
+    <div id="project" style="margin-right: 20px; margin-top: 0px;">
+      <h3>GroundWatch</h3>
       <p class="projectText">Anonymously report violence at protests.</p>
-      <p class="projectLinks"><a href="http://www.groundwatch.io/">Website</a> <a href="https://itunes.apple.com/us/app/groundwatch/id1296615740?ls=1&mt=8">App Store</a> <a href="https://play.google.com/store/apps/details?id=com.oliviasteger.GroundWatchiOS">Google Play</a> <a style="padding-right: 0px;" href="https://github.com/oliviasteger/GroundWatch">Github</a></p>
+      <p class="projectLinks"><a href="http://www.groundwatch.io/">App Website</a> <a href="https://itunes.apple.com/us/app/groundwatch/id1296615740?ls=1&mt=8">App Store</a> <a href="https://play.google.com/store/apps/details?id=com.oliviasteger.GroundWatchiOS">Google Play</a> <a style="padding-right: 0px;" href="https://github.com/oliviasteger/GroundWatch">Github</a></p>
     </div>
     </td>
   </tr>
@@ -131,8 +184,8 @@
 
 <br>
 <div id="footer">
-  <p>© 2017 Olivia Steger</p>
-  <a class="footerLink" href="mailto:olivia@oliviasteger.com">Contact</a> &nbsp; <a class="footerLink" href="http://www.github.com/oliviasteger">GitHub</a> &nbsp; <a class="footerLink" href="http://www.oliviasteger.com/awards">Awards</a>
+  <p>© 2018 Olivia Steger</p>
+  <a class="footerLink" href="mailto:olivia@oliviasteger.com">Contact</a> &nbsp; <a class="footerLink" href="http://www.github.com/oliviasteger">GitHub</a>
   <br><br>
 </div>
 </body>
