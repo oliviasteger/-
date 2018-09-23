@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,800" rel="stylesheet">
-  <link rel="shortcut icon" href="https://avatars3.githubusercontent.com/u/6898723?s=40&v=4" type="image/x-icon" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>
   $(document).ready(function(){
@@ -63,13 +62,13 @@
   }
   @-webkit-keyframes pulse {
       0% {
-          font-size: 25px;
+          opacity: 0.5;
       }
       50% {
-          font-size: 40px;
+          opacity: 1.0;
       }
       100% {
-          font-size: 25px;
+          opacity: 0.5;
       }
   }
   .wave {
@@ -124,8 +123,15 @@
     }
     .caption {
       font-size: 30px;
-      line-height: 40px;
+      line-height: 35px;
       color:  #262626;
+    }
+    .description {
+      font-size: 25px;
+      line-height: 30px;
+    }
+    .footer {
+      padding-left: 0%;
     }
   }
   </style>
@@ -156,7 +162,8 @@
   </div>
   <br><br><br><br><br><br><br><br><br><br><br>
   <div class="footer">
-    <p class = "description"> Created with <span class="pulse">❤️</span> by Olivia Steger.</p>
+    <p style="font-size: 16px;" class = "description"> Created with lots of
+      <span class="pulse">❤️</span> by Olivia Steger. © 2018.</p>
   </div>
 </body>
 </html>
